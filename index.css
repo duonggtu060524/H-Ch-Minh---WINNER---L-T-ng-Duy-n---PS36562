@@ -1,0 +1,2188 @@
+/* Điện thoại dọc */
+@media all and (min-width: 240px) {
+
+  .container {
+    margin: 0
+  }
+  
+  .header{
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  .logo{
+    width: 30%;
+  }
+  
+  nav{
+    width: 70%;
+    display: none;
+  }
+  #menu{
+    width: 100%;
+  }
+  ul{
+    list-style: none;
+    margin: 15px;
+    line-height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  #menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter';
+  }
+  #menu li a:hover{
+    color: white;
+    background-color: #F27226;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Inter';
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .header .icon{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+  }
+  .header .icon:hover{
+    cursor: pointer;
+    background-color: #F27226;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .banner{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .banner img{
+    width: 100%;
+  }
+  .aboutDM {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .aboutDM-left {
+    width: 100%;
+  }
+  .aboutDM-right {
+    width: 100%;
+    font-family: "Inter";
+  }
+  .aboutDM-right p {
+    width: 100%;
+    font-size: 18px;
+    margin: 0 auto;
+    color: black;
+    margin: 2px;
+  }
+  .aboutDM-right strong {
+    color: #f27226;
+  }
+  .aboutDM-left img {
+    width: 100%;
+  }
+  .benefit {
+    width: 100%;
+    text-align: center;
+  }
+  .benefit h3{
+    font-size: 32px;
+    font-family: "Inter";
+    color: #f27226;
+  }
+  .benefit hr {
+    width: 100%;
+    height: 0.1px;
+    background-color: #f4ba57;
+    border: 1px solid #f3ab32;
+  }
+  .benefit p {
+    margin: 0 auto;
+    line-height: 19px;
+    color: #a19b9b;
+    font-family: "Inter";
+  }
+  .benefit-slide {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .benefit-img {
+    width: 100%;
+    
+  }
+  .benefit-img img {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .benefit-slide p {
+    font-family: "Inter";
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .teacher {
+    background: linear-gradient(180deg, #fff7f7 0%, #f27226 100%);
+  }
+  .teacher u {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 90px;
+    color: #f27226;
+    margin: 0 auto;
+  }
+  .teacher-slide {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teacher-img {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+  .teacher-img img {
+    width: 100%;
+  }
+  .teacher-img b {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .teacher-img p {
+    width: 220px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 13px;
+    color: #000000;
+    margin: 0 auto;
+  }
+  .why {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .why-left {
+    width: 100%;
+  }
+  .why-left h1 {
+    font-family: "Inter";
+    font-weight: 600;
+    width: 100%;
+    font-size: 30px;
+  }
+  .why-left strong {
+    color: #f27226;
+    font-size: 50px;
+  }
+  .why-left b {
+    font-family: "Inter";
+    font-weight: 600;
+    color: #f27226;
+  }
+  .why-left img {
+    width: 80%;
+    position: absolute;
+    text-align: center;
+  }
+  .why-left .why2 {
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+  
+  .why-right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 300px;
+  }
+  .why-right-box {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+    background: linear-gradient(180deg, #fff7f7 0%, #f27226 100%);
+  }
+  .why-right-box img {
+    width: 100%;
+  }
+  .achievement {
+    flex-wrap: wrap;
+  }
+  .achievement-left {
+    width: 100%;
+  }
+  .achievement-left h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 30px;
+    color: #f3ab32;
+    text-align: center;
+  }
+  .achievement-left p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  
+  .achievement-right {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .achievement-right img {
+    width: 100%;
+    padding-top: 45px;
+  }
+  .lotrinh {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .lotrinh img{
+    width: 50%;
+    margin: 0 auto;
+
+  }
+  .route {
+    background: linear-gradient(180deg, #f3ab32 0%, #fac7a8 100%);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .hocki {
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+  }
+  .hocki h1 {
+    padding-left: 40px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #f27226;
+    
+  }
+  .hocki ul{
+    padding: 5px;
+    padding-left: 40px;
+  }
+  .hocki ul li {
+    list-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+    top: 0;
+  }
+  .endroute {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 30px;
+  }
+  .activity{
+    width: 100%;
+  }
+  .activity h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .activity strong {
+    color: #f27226;
+  }
+  .activity p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #a19b9b;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .anhac {
+    padding-top: 20px;
+    text-align: center;
+    z-index: 100;
+  }
+  .anhac img {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .acphu img {
+    width: 100%;
+    position: relative;
+    top: -130px;
+    z-index: 10;
+  }
+  .acphu hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    border: 0px solid black;
+  }
+  
+  .evaluate {
+    width: 100%;
+  }
+  .evaluate h1 {
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .evaluate-slide {
+    width: 100%;
+  }
+  .evaluate-img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .evaluate-img img {
+    width: 100%;
+  }
+  .evaluate-slide strong {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .evaluate-slide p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #a19b9b;
+  }
+  .evaluate hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    border: 0px solid black;
+  }
+  .doitac{
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .doitac h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #F27226;
+  }
+  .doitac hr{
+    width: 50px;
+  }
+  .imgdt{
+    width: 100%;
+    display: flex;
+  }
+  .imgdt img{
+    width: 25%;
+  }
+  .end{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left{
+    width: 100%;
+    position: relative;
+  }
+  .left img{
+    width: 100%;
+  }
+  .left>.contact{
+    position: absolute;
+    top: 135px;
+    right: 30px;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 29px;
+    color: #f27226;
+  }
+  .left>.contact:hover{
+    cursor: pointer;
+    background-color: #F27226;
+    color: white;
+    transition: all 0.8s ease;
+  }
+  .right{
+    width: 100%;
+    height: 360px;
+    background-color: #F27226;
+    position: relative;
+  }
+  .right h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .right input{
+    margin: 10px;
+    padding: 9px 85px;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #A19B9B;
+    border: 0px;
+    text-align: center;
+  }
+  .right>.register{
+    background: #F3AB32;
+    width: 90%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 310px;
+    left: 2%;
+  }
+  .right>.register:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #192041;
+    transition: all 0.5s ease;
+  }
+  footer{
+    background-color:  #192041;
+    width: 100%;
+    margin: 10px auto;
+    
+  }
+  main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bentrai{
+    text-align: center;
+    width: 100%;
+  }
+  .benphai{
+    width: 100%;
+  }
+  P{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+  }
+  .a1{
+    font-size: 13px;
+  }
+  .box{
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    width: 130px;
+    margin: 0  auto;
+  }
+  .benphai hr{
+    border: 1px solid #FFFFFF;
+    transform: rotate(0.4deg);
+    width: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Điện thoại ngang */
+@media all and (min-width: 576px) {
+  .menu {
+    display: block;
+  }
+  .container {
+    margin: 0;
+  }
+  
+  .header{
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  .logo{
+    width: 30%;
+  }
+  
+  nav{
+    width: 70%;
+    display: none;
+  }
+  #menu{
+    width: 100%;
+  }
+  ul{
+    list-style: none;
+    margin: 15px;
+    line-height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  #menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter';
+  }
+  #menu li a:hover{
+    color: white;
+    background-color: #F27226;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Inter';
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .header .icon{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+  }
+  .header .icon:hover{
+    cursor: pointer;
+    background-color: #F27226;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .aboutDM {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .aboutDM-left {
+    width: 100%;
+  }
+  .aboutDM-right {
+    width: 100%;
+    font-family: "Inter";
+  }
+  .aboutDM-right p {
+    width: 100%;
+    font-size: 18px;
+    margin: 0 auto;
+    color: black;
+    margin: 2px;
+  }
+  .aboutDM-right strong {
+    color: #f27226;
+  }
+  .aboutDM-left img {
+    width: 100%;
+  }
+  .benefit {
+    width: 100%;
+    text-align: center;
+  }
+  .benefit h3{
+    font-size: 32px;
+    font-family: "Inter";
+    color: #f27226;
+  }
+  .benefit hr {
+    width: 100%;
+    height: 0.1px;
+    background-color: #f4ba57;
+    border: 1px solid #f3ab32;
+  }
+  .benefit p {
+    margin: 0 auto;
+    line-height: 19px;
+    color: #a19b9b;
+    font-family: "Inter";
+  }
+  .benefit-slide {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .benefit-img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .benefit-img img {
+    width: 100%;
+  }
+  .benefit-slide p {
+    font-family: "Inter";
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .teacher {
+    background: linear-gradient(180deg, #fff7f7 0%, #f27226 100%);
+  }
+  .teacher u {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 90px;
+    color: #f27226;
+    margin: 0 auto;
+  }
+  .teacher-slide {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teacher-img {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+  .teacher-img img {
+    width: 100%;
+  }
+  .teacher-img b {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .teacher-img p {
+    width: 220px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 13px;
+    color: #000000;
+    margin: 0 auto;
+  }
+  .why {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .why-left {
+    width: 100%;
+  }
+  .why-left h1 {
+    font-family: "Inter";
+    font-weight: 600;
+    width: 100%;
+    font-size: 30px;
+  }
+  .why-left strong {
+    color: #f27226;
+    font-size: 50px;
+  }
+  .why-left b {
+    font-family: "Inter";
+    font-weight: 600;
+    color: #f27226;
+  }
+  .why-left img {
+    width: 80%;
+    position: absolute;
+    text-align: center;
+  }
+  .why-left .why2 {
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+  
+  .why-right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 600px;
+  }
+  .why-right-box {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+    background: linear-gradient(180deg, #fff7f7 0%, #f27226 100%);
+  }
+  .why-right-box img {
+    width: 100%;
+  }
+  .achievement {
+    flex-wrap: wrap;
+  }
+  .achievement-left {
+    width: 100%;
+  }
+  .achievement-left h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 30px;
+    color: #f3ab32;
+    text-align: center;
+  }
+  .achievement-left p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  
+  .achievement-right {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .achievement-right img {
+    width: 100%;
+    padding-top: 45px;
+  }
+  .lotrinh {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .lotrinh img{
+    width: 35%;
+    margin: 0 auto;
+
+  }
+
+  .route {
+    background: linear-gradient(180deg, #f3ab32 0%, #fac7a8 100%);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .hocki {
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding-left: 30px;
+  }
+  .hocki h1 {
+    padding-left: 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #f27226;
+    
+  }
+  .hocki ul{
+    padding: 5px;
+    padding-left: 10px;
+  }
+  .hocki ul li {
+    list-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+    top: 0;
+  }
+  .endroute {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 30px;
+  }
+  .activity{
+    width: 100%;
+  }
+  .activity h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .activity strong {
+    color: #f27226;
+  }
+  .activity p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #a19b9b;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .anhac {
+    padding-top: 20px;
+    text-align: center;
+    z-index: 100;
+  }
+  .anhac img {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .acphu img {
+    width: 100%;
+    position: relative;
+    top: -130px;
+    z-index: 10;
+  }
+  .acphu hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    border: 0px solid black;
+  }
+  
+  .evaluate {
+    width: 100%;
+  }
+  .evaluate h1 {
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .evaluate-slide {
+    width: 100%;
+  }
+  .evaluate-img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .evaluate-img img {
+    width: 100%;
+  }
+  .evaluate-slide strong {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .evaluate-slide p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #a19b9b;
+  }
+  .evaluate hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    border: 0px solid black;
+  }
+  .doitac{
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .doitac h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #F27226;
+  }
+  .doitac hr{
+    width: 50px;
+  }
+  .imgdt{
+    width: 100%;
+    display: flex;
+  }
+  .imgdt img{
+    width: 25%;
+  }
+  .end{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left{
+    width: 100%;
+    position: relative;
+  }
+  .left img{
+    width: 100%;
+  }
+  .left>.contact{
+    position: absolute;
+    top: 135px;
+    right: 30px;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 29px;
+    color: #f27226;
+  }
+  .right{
+    width: 100%;
+    height: 360px;
+    background-color: #F27226;
+    position: relative;
+  }
+  .right h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .right input{
+    margin: 10px;
+    padding: 9px 85px;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #A19B9B;
+    border: 0px;
+    text-align: center;
+    width: 99%;
+  }
+  .right>.register{
+    background: #F3AB32;
+    width: 94%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 310px;
+    /* left: 30px; */
+  }
+  .right>.register:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #192041;
+    transition: all 0.5s ease;
+  }
+  footer{
+    background-color:  #192041;
+    width: 100%;
+    margin: 10px auto;
+    
+  }
+  main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bentrai{
+    text-align: center;
+    width: 100%;
+  }
+  .benphai{
+    width: 100%;
+  }
+  P{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+  }
+  .a1{
+    font-size: 13px;
+  }
+  .box{
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    width: 130px;
+    margin: 0  auto;
+  }
+  .benphai hr{
+    border: 1px solid #FFFFFF;
+    transform: rotate(0.4deg);
+    width: 100px;
+    
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Máy tính bảng */
+@media all and (min-width: 768px) {
+  .container {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+  
+  .header{
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  .logo{
+    width: 30%;
+  }
+  
+  nav{
+    width: 100%;
+    display: none;
+  }
+  #menu{
+    width: 100%;
+  }
+  ul{
+    list-style: none;
+    margin: 15px;
+    line-height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  #menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter';
+    
+  }
+  #menu li a:hover #menu{
+    color: white;
+    background-color: #F27226;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Inter';
+    cursor: pointer;
+    transition: all 0.3s;
+    display: block;
+  }
+  .header .icon{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+  }
+  .header .icon:hover{
+    cursor: pointer;
+    background-color: #F27226;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .banner img{
+    width: 100%;
+  }
+  .aboutDM {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .aboutDM-left {
+    width: 100%;
+  }
+  .aboutDM-right {
+    width: 100%;
+    font-family: "Inter";
+  }
+  .aboutDM-right p {
+    width: 100%;
+    font-size: 30px;
+    margin: 0 auto;
+    color: black;
+    margin: 2px;
+  }
+  .aboutDM-right .doanvan{
+    width: 100%;
+    font-size: 18px;
+    margin: 0 auto;
+    color: black;
+    margin: 2px;
+  }
+  .aboutDM-right strong {
+    color: #f27226;
+  }
+  .aboutDM-left img {
+    width: 100%;
+  }
+  .benefit {
+    width: 100%;
+    text-align: center;
+  }
+  .benefit h3{
+    font-size: 32px;
+    font-family: "Inter";
+    color: #f27226;
+  }
+  .benefit hr {
+    width: 100%;
+    height: 0.1px;
+    background-color: #f4ba57;
+    border: 1px solid #f3ab32;
+  }
+  .benefit p {
+    margin: 0 auto;
+    line-height: 19px;
+    color: #a19b9b;
+    font-family: "Inter";
+  }
+  .benefit-slide {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .benefit-img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .benefit-img img {
+    width: 100%;
+  }
+  .benefit-slide p {
+    font-family: "Inter";
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .teacher {
+    background: linear-gradient(180deg, #fff7f7 0%, #f27226 100%);
+  }
+  .teacher u {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 90px;
+    color: #f27226;
+    margin: 0 auto;
+  }
+  .teacher-slide {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teacher-img {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+  .teacher-img img {
+    width: 100%;
+  }
+  .teacher-img b {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .teacher-img p {
+    width: 270px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    margin: 0 auto;
+  }
+  .why {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .why-left {
+    width: 100%;
+  }
+  .why-left h1 {
+    font-family: "Inter";
+    font-weight: 600;
+    width: 100%;
+    font-size: 30px;
+  }
+  .why-left strong {
+    color: #f27226;
+    font-size: 50px;
+  }
+  .why-left b {
+    font-family: "Inter";
+    font-weight: 600;
+    color: #f27226;
+  }
+  .why-left img {
+    width: 70%;
+    position: absolute;
+    text-align: center;
+  }
+  .why-left .why2 {
+    padding-left: 50px;
+    padding-top: 30px;
+  }
+  
+  .why-right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 700px;
+  }
+  .why-right-box {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+    background: linear-gradient(180deg, #fff7f7 0%, #f27226 100%);
+  }
+  .why-right-box img {
+    width: 100%;
+  }
+  .achievement {
+    flex-wrap: wrap;
+  }
+  .achievement-left {
+    width: 100%;
+  }
+  .achievement-left h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 30px;
+    color: #f3ab32;
+    text-align: center;
+  }
+  .achievement-left p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  
+  .achievement-right {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .achievement-right img {
+    width: 100%;
+    padding-top: 45px;
+  }
+  .lotrinh {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    
+  }
+
+  .route {
+    background: linear-gradient(180deg, #f3ab32 0%, #fac7a8 100%);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .hocki {
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 38%;
+    padding-left: 30px;
+  }
+  .hocki h1 {
+    padding-left: 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #f27226;
+    
+  }
+  .hocki ul{
+    padding: 5px;
+    padding-left: 0px;
+  }
+  .hocki ul li {
+    list-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    color: #000000;
+    top: 0;
+    padding: 2px;
+  }
+  .endroute {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    padding-left: 30px;
+  }
+  .activity{
+    width: 100%;
+  }
+  .activity h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .activity strong {
+    color: #f27226;
+  }
+  .activity p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #a19b9b;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .anhac {
+    padding-top: 20px;
+    text-align: center;
+    z-index: 100;
+  }
+  .anhac img {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .acphu img {
+    width: 100%;
+    position: relative;
+    top: -130px;
+    z-index: 10;
+  }
+  .acphu hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    border: 0px solid black;
+  }
+  
+  .evaluate {
+    width: 100%;
+  }
+  .evaluate h1 {
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .evaluate-slide {
+    width: 100%;
+  }
+  .evaluate-img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .evaluate-img img {
+    width: 100%;
+  }
+  .evaluate-slide strong {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .evaluate-slide p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: #a19b9b;
+  }
+  .evaluate hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    border: 0px solid black;
+  }
+  .doitac{
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .doitac h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #F27226;
+  }
+  .doitac hr{
+    width: 50px;
+  }
+  .imgdt{
+    width: 100%;
+    display: flex;
+  }
+  .imgdt img{
+    width: 25%;
+  }
+  .end{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left{
+    width: 100%;
+    position: relative;
+  }
+  .left img{
+    width: 100%;
+  }
+  .left>.contact{
+    position: absolute;
+    top: 230px;
+    right: 60px;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 29px;
+    color: #f27226;
+  }
+  .left>.contact:hover{
+    cursor: pointer;
+    background-color: #F27226;
+    color: white;
+    transition: all 0.8s ease;
+  }
+  .right{
+    width: 100%;
+    height: 360px;
+    background-color: #F27226;
+    position: relative;
+  }
+  .right h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .right input{
+    margin: 10px;
+    padding: 9px 9px;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #A19B9B;
+    border: 0px;
+    text-align: center;
+    width: 93%;
+  }
+  .right>.register{
+    background: #F3AB32;
+    width: 95%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 310px;
+    left: 1%;
+  }
+  .right>.register:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #192041;
+    transition: all 0.5s ease;
+  }
+  footer{
+    background-color:  #192041;
+    width: 100%;
+    margin: 10px auto;
+    
+  }
+  main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bentrai{
+    text-align: center;
+    width: 100%;
+  }
+  .benphai{
+    width: 100%;
+  }
+  P{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+  }
+  .a1{
+    font-size: 13px;
+  }
+  .box{
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    width: 130px;
+    margin: 0  auto;
+  }
+  .benphai hr{
+    border: 1px solid #FFFFFF;
+    transform: rotate(0.4deg);
+    width: 100px;
+    
+    
+  }
+}
+/* màn hình máy tính */
+@media all and (min-width: 992px) {
+  .container {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.nav {
+  display: flex;
+  display: none;
+}
+.logo {
+  width: 20%;
+}
+.logo img {
+  width: 200px;
+}
+.menu {
+  width: 80%;
+  text-align: right;
+}
+.menu a {
+  color: orangered;
+  text-decoration: none;
+  padding: 5px;
+}
+#banner {
+  width: 100%;
+}
+#banner img {
+  width: 100%;
+}
+#aboutDM {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+.aboutDM-left {
+  width: 50%;
+}
+.aboutDM-right {
+  width: 50%;
+  font-family: "Inter";
+  padding-left: 100px;
+}
+.aboutDM-right p {
+  width: 100%;
+  font-size: 36px;
+  margin: 0 auto;
+  color: black;
+  margin: 50px;
+}
+.aboutDM-right .doanvan{
+  font-size: 18px;
+  margin: 50px;
+  width: 80%;
+}
+.aboutDM-right strong {
+  color: #f27226;
+}
+.aboutDM-left img {
+  width: 100%;
+}
+
+
+#benefit {
+  text-align: center;
+}
+#benefit h3 {
+  font-family: "Inter";
+  color: #f27226;
+  font-size: 30px;
+}
+#benefit hr {
+  width: 550px;
+  height: 0.1px;
+  background-color: #f4ba57;
+  border: 1px solid #f3ab32;
+}
+#benefit p {
+  width: 580px;
+  margin: 0 auto;
+  line-height: 19px;
+  color: #a19b9b;
+  font-family: "Inter";
+}
+.benefit-slide {
+  width: 100%;
+  display: flex;
+}
+.benefit-img {
+  width: 23.9%;
+  padding: 5px;
+}
+.benefit-img img {
+  width: 100%;
+}
+.benefit-slide p {
+  font-family: "Inter";
+  font-size: 13px;
+  text-align: center;
+  font-weight: 600;
+}
+#teacher {
+  background: linear-gradient(180deg, #FFF7F7 0%, #F27226 100%);
+}
+#teacher u {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 90px;
+  color: #f27226;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+#teacher-slide {
+  width: 100%;
+  display: flex;
+}
+.teacher-img {
+  width: 23.8%;
+  padding: 5px;
+  text-align: center;
+}
+.teacher-img img {
+  width: 100%;
+}
+.teacher-img b {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+}
+.teacher-img p {
+  width: 220px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 13px;
+  color: #000000;
+}
+.why {
+  display: flex;
+}
+.why-left {
+  width: 40%;
+}
+.why-left h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  width: 400px;
+  font-size: 30px;
+}
+.why-left strong {
+  color: #f27226;
+  font-size: 100px;
+}
+.why-left b {
+  font-family: "Inter";
+  font-weight: 600;
+  color: #f27226;
+}
+.why-left img {
+  width: 20%;
+  position: absolute;
+}
+.why-left .why2 {
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+.why-right {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 35px;
+}
+.why-right-box {
+  width: 45%;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+}
+.why-right-box img {
+  width: 100%;
+}
+.achievement {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+}
+.achievement-left {
+  width: 40%;
+}
+.achievement-left h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 30px;
+  color: #f3ab32;
+  text-align: center;
+}
+.achievement-left p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.achievement-right {
+  width: 60%;
+}
+.achievement-right img {
+  width: 100%;
+  padding-top: 45px;
+}
+#lotrinh {
+  width: 100%;
+  text-align: center;
+}
+#lotrinh img{
+  width: 30%;
+}
+
+.route {
+  background: linear-gradient(180deg, #f3ab32 0%, #fac7a8 100%);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.hocki {
+  margin: 49px;
+  background-color: white;
+  border-radius: 20px;
+  width: 20%;
+  position: relative;
+}
+.hocki h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #f27226;
+  position: absolute;
+  left: 40px;
+}
+.hocki ul{
+  width: 100%;
+  padding-top: 70px;
+  padding-left: 0px;
+}
+.hocki ul li {
+  list-style: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.endroute {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 44px;
+  color: #000000;
+  padding-left: 30px;
+}
+#activity{
+  width: 100%;
+}
+#activity h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  padding-top: 30px;
+  text-align: center;
+}
+#activity strong {
+  color: #f27226;
+}
+#activity p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #a19b9b;
+  width: 100%;
+  margin: 0 auto;
+}
+.anhac {
+  padding-top: 20px;
+  text-align: center;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.anhac img {
+  width: 40%;
+  position: relative;
+  z-index: 20;
+  margin: 10px;
+  padding-left: 47px;
+}
+
+.acphu img {
+  width: 100%;
+  position: relative;
+  top: -130px;
+  z-index: 10;
+}
+.acphu hr {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  border: 0px solid black;
+}
+
+#evaluate {
+  width: 100%;
+}
+#evaluate h1 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+}
+.evaluate-slide {
+  width: 100%;
+  display: flex;
+}
+.evaluate-img {
+  width: 20%;
+  margin: 0 auto;
+}
+.evaluate-img img {
+  width: 100%;
+}
+.evaluate-slide strong {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+}
+.evaluate-slide p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a19b9b;
+}
+.evaluate hr {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  border: 0px solid black;
+}
+#doitac{
+  width: 100%;
+  text-align: center;
+  padding-top: 35px;
+}
+#doitac h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #F27226;
+}
+#doitac hr{
+  width: 50px;
+}
+.imgdt{
+  width: 100%;
+  display: flex;
+}
+.imgdt img{
+  width: 25%;
+}
+#end{
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+}
+.left{
+  width: 70%;
+  position: relative;
+}
+.left img{
+  width: 100%;
+  height: 360px;
+}
+.left>.contact{
+  position: absolute;
+  top: 270px;
+  right: 50px;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f27226;
+}
+.left>.contact:hover{
+  cursor: pointer;
+  background-color: #F27226;
+  color: white;
+  transition: all 0.8s ease;
+}
+.right{
+  width: 30%;
+  background-color: #F27226;
+  position: relative;
+}
+.right h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.right input{
+  margin: 10px;
+  padding: 9px 30px;
+  border-radius: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #A19B9B;
+  border: 0px;
+  width: 69%;
+}
+.right>.register{
+  background: #F3AB32;
+  width: 215px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  left: 6%;
+  border-radius: 20px;
+  
+}
+
+footer{
+  background-color:  #192041;
+}
+main{
+  display: flex;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.bentrai{
+  width: 20%;
+}
+.benphai{
+  width: 40%;
+  padding-left: 50px;
+}
+P{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+}
+.a1{
+  font-size: 18px;
+}
+.box{
+  text-align: center;
+  background-color: white;
+  padding: 5px;
+  border-radius: 30px;
+  width: 130px;
+  margin: 0  auto;
+}
+}
